@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(250, 250, 250);
+}
+a {
+    font-family: verdana ; font-size:15px; text-transform: uppercase;
+    }
+    img.logo {
+        margin: auto;
+    }
+    div.Logo img{
+        display: inline-block; width: 15%; 
+   margin: auto;
+    }
+    div.Logo {
+        margin: auto; text-align: center; width: 100%; background-image:linear-gradient(rgb(255, 252, 235), rgb(250, 250, 249));
+        box-shadow:0 4px 8px 0 rgba(250, 250, 250, 0.8), 0 6px 20px 0 rgba(250, 250, 250, 0.6);
+    }
+    div.SetMid{
+        margin: auto; background-color: rgb(250, 250, 250); width: 60%; height: auto;
+    }
+    div.NavBar {
+       margin: auto; text-align: left; margin-top: 10px; margin-bottom: 20px; transition-duration: 1s; position: sticky ; top: 0;
+       background-color: darkgray; box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3); z-index: 1;
+    }
+    div.AboutSchool { 
+        padding-left: 20px; padding-right: 20px; background-color:rgb(243, 242, 242);
+        box-shadow:0 10px 15px 0 rgba(0, 0, 0, 0.3), 0 14px 26px 0 rgba(0, 0, 0, 0.2); margin-top: 0px;
+        }
+    div.NavBar:hover{
+        transition: ease-in-out; box-shadow: 0 10px 10px 0 rgb(167, 167, 206);
+    }
+    a:hover{
+        color: blueviolet;
+    }
+    a:active {
+        color: purple;
+    }
+    div.NavBar a {
+        display:inline-block; text-decoration: none; padding-top: 15px; padding-bottom: 15px;
+       text-align: center; margin-right: 30px; margin-left: 30px;
+      }
+input#search {
+   padding-top: 4px; padding-bottom: 5px; margin-left: 190px;
+    border: 1.5px solid blueviolet; border-radius: 3px; color: blueviolet;
+}
+#search {
+    font-family: Verdana; padding-left: 10px;
+}
+div.AboutSchool p {
+    margin: auto; color: rgba(39, 39, 167, 0.781); font-family: monospace; font-size: 120%; 
+}
+img.ourschool{
+  
+    height:300px; width: 100%; margin: auto; display:block; opacity: 0.9; padding-left: 0px; padding-right: 0px; margin-bottom: 0px;
+}
+img.ourschool:hover {
+opacity: 1; box-shadow:0 10px 12px 0 rgba(0, 0, 0, 0.6), 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+div.footer {
+    background-image: linear-gradient(rgb(253, 251, 241), rgb(243, 185, 76));
+    /*linear-gradient(rgb(216, 103, 103), orange)*/ margin-top: 5px;
+    
+}
+div.QLinks{
+    display: inline-block; width: 20%; height: auto; text-align: left; margin-left: 15%; margin-right: 4%;
+
+}
+div.QLinks2 a, div.QLinks2 p {
+margin-bottom: 30px;
+}
+div.QLinks3 a, div.QLinks3 p{
+    margin-bottom: 23;
+}
+div.QLinks2{
+    display: inline-block;   width: 20%;  height: auto;  text-align: left; margin-right: 4%;
+
+}
+div.QLinks3{
+    display: inline-block;   width: 20%;  height: auto;  text-align: left; margin-right: 10%; 
+}
+div.QLinks a  {
+     display: block;
+}
+
+p.td{
+    color: rgb(3, 3, 85);
+}
+a.td {
+ text-decoration: none; margin: 15px; margin-left: 0px; text-transform: none; font-family: monospace;
+}
+p.hd {
+    font-weight: bold; border-bottom: 1.4px dotted red; padding-bottom: 8px; 
+}
