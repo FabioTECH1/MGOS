@@ -40,7 +40,7 @@ a {
        text-align: center; margin-right: 30px; margin-left: 30px;
       }
 input#search {
-   padding-top: 4px; padding-bottom: 5px; margin-left: 190px;
+   padding-top: 4px; padding-bottom: 5px; margin-left: 170px; 
     border: 1.5px solid blueviolet; border-radius: 3px; color: blueviolet;
 }
 #search {
@@ -58,19 +58,14 @@ opacity: 1; box-shadow:0 10px 12px 0 rgba(0, 0, 0, 0.6), 0 10px 30px 0 rgba(0, 0
 }
 div.footer {
     background-image: linear-gradient(rgb(253, 251, 241), rgb(243, 185, 76));
-    /*linear-gradient(rgb(216, 103, 103), orange)*/ margin-top: 5px;
+    /*linear-gradient(rgb(216, 103, 103), orange)*/ margin-top: 5px; display: inline-flex; width: 100%;
     
 }
 div.QLinks{
     display: inline-block; width: 20%; height: auto; text-align: left; margin-left: 15%; margin-right: 4%;
 
 }
-div.QLinks2 a, div.QLinks2 p {
-margin-bottom: 30px;
-}
-div.QLinks3 a, div.QLinks3 p{
-    margin-bottom: 23;
-}
+
 div.QLinks2{
     display: inline-block;   width: 20%;  height: auto;  text-align: left; margin-right: 4%;
 
@@ -86,8 +81,8 @@ p.td{
     color: rgb(3, 3, 85);
 }
 a.td {
- text-decoration: none; margin: 15px; margin-left: 0px; text-transform: none; font-family: monospace;
+ text-decoration: none;  text-transform: none; font-family: monospace; 
 }
 p.hd {
-    font-weight: bold; border-bottom: 1.4px dotted red; padding-bottom: 8px; 
+    font-weight: bold; border-bottom: 1.4px solid red; padding-bottom: 8px; 
 }
